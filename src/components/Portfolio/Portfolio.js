@@ -2,6 +2,7 @@ import React from 'react';
 import dr from './dr.png';
 import bg from './bg.png';
 import lw from './lw.png';
+import robofriends from './robofriends.png';
 import sb from './sb.png';
 
 const Portfolio =()=>{
@@ -39,8 +40,20 @@ const Portfolio =()=>{
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
        <dd className="ml0 black truncate w-100 ttu">Landing Website</dd>
-       <dt className="clip">Artist</dt>
-       <dd className="ml0 gray truncate w-100">{'a JavaScript app to help web developer generate background'}</dd>
+       <dt className="clip">Intro</dt>
+       <dd className="ml0 gray truncate w-100">{'A JavaScript app to help web developer generate background'}</dd>
+     </dl>
+   </a>
+ </div>
+
+ <div className="fl w-100 w-50-m w-third-l pa2">
+   <a href="https://myrobofriends.herokuapp.com/" className="db link dim tc">
+     <img src={robofriends} alt="sb-screenshop" className="w-100 db outline black-10"/>
+     <dl className="mt2 f6 lh-copy">
+       <dt className="clip">Title</dt>
+       <dd className="ml0 black truncate w-100 ttu">{'Robofriends'}</dd>
+       <dt className="clip">Intro</dt>
+       <dd className="ml0 gray truncate w-100">{'A React based application with API'}</dd>
      </dl>
    </a>
  </div>
@@ -51,7 +64,7 @@ const Portfolio =()=>{
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
        <dd className="ml0 black truncate w-100 ttu">{'Face Recognition'}</dd>
-       <dt className="clip">Artist</dt>
+       <dt className="clip">Intro</dt>
        <dd className="ml0 gray truncate w-100">{'Use a RESTful API to detect face in given images'}</dd>
      </dl>
    </a>
