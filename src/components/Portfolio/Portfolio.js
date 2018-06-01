@@ -5,9 +5,11 @@ import lw from './lw.png';
 import robofriends from './robofriends.png';
 import sb from './sb.png';
 
-const Portfolio =()=>{
+
+const Portfolio=()=>{
   return(
     <div>
+
     <article className='center'>
 <h2 className="f3 fw4 pa3 mv0">Portfolio</h2>
 <div className="cf pa2">
@@ -69,10 +71,6 @@ const Portfolio =()=>{
      </dl>
    </a>
  </div>
-
-
-
-
 
 </div>
 </article>
