@@ -29,6 +29,10 @@ class App extends Component {
         : <Contact/>
          )
         }
+        <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+         <small class="f6 db tc">© 2018<b class="ttu"> YIFANG LO</b> All Rights Reserved</small>
+        </footer>
+
       </div>
     );
   }

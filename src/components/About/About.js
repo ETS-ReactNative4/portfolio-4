@@ -1,7 +1,7 @@
 import React from 'react';
 import bella from './bella.png';
 import Tilt from 'react-tilt'
-import LR from './LR.pdf';
+import resume from './resume.pdf';
 
 const About =()=>{
   return(
@@ -15,10 +15,10 @@ const About =()=>{
     <hr className="mw3 bb bw1 b--black-10" />
   </div>
   <p className="lh-copy measure center f6 black-70">
-    {'Self-taught web developer with background in foral design, baking and business.  Passionate about applying technology to solve real world problems and to create value.  Learning new things is always excites me.'}
+    {'Self-taught web developer with background in foral design, baking and business.  Passionate about applying technology to solve real world problems and to create value.  Learning new things is always excited me.'}
   </p>
   <div class="ph3 center">
-  <a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-navy" href={LR}>Download Resume</a>
+  <a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-navy" href={resume}>Download Resume</a>
 </div>
 </article>
     </div>
