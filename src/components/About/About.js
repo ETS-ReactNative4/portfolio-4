@@ -15,7 +15,7 @@ const About =()=>{
     <hr className="mw3 bb bw1 b--black-10" />
   </div>
   <p className="lh-copy measure center f6 black-70">
-    {'Self-taught web developer with background in foral design, baking and business.  I enjoy working with other smart, motivated individuals, and always looking to learn new things.'}
+    {'Self-taught web developer with background in foral design, baking and business.  Passionate about applying technology to solve real world problems and to create value.  Learning new things is always excites me.'}
   </p>
   <div class="ph3 center">
   <a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-navy" href={LR}>Download Resume</a>
