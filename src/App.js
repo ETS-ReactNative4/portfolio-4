@@ -1,10 +1,30 @@
 import React, { Component } from 'react';
 import 'tachyons';
+import Particles from 'react-particles-js';
 import Navigation from './components/Navigation/Navigation';
 import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import './App.css';
+
+const particleOptions={
+  particles: {
+    number: {
+      value: 50,
+      density:{
+        enable: true,
+        value_area: 600
+      }
+    },
+    color: {
+     value: '#1e4f59'
+   },
+   line_linked:{
+     enable_auto: true,
+     color: '#2f0d0d'
+   }
+  }
+}
 
 class App extends Component {
   constructor(){
@@ -20,6 +40,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <Particles className='particles'
+      params={particleOptions}/>
         <Navigation onRouteChange={this.onRouteChange}/>
         {this.state.route === 'home'
         ?<About />
