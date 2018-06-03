@@ -49,13 +49,13 @@ const Portfolio=()=>{
  </div>
 
  <div className="fl w-100 w-50-m w-third-l pa2">
-   <a href="https://myrobofriends.herokuapp.com/" className="db link dim tc">
+   <a href="https://search-robofriends.herokuapp.com/" className="db link dim tc">
      <img src={robofriends} alt="sb-screenshop" className="w-100 db outline black-10"/>
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
        <dd className="ml0 black truncate w-100 ttu">{'Robofriends'}</dd>
        <dt className="clip">Intro</dt>
-       <dd className="ml0 gray truncate w-100">{'A React based application with API'}</dd>
+       <dd className="ml0 gray truncate w-100">{'A React/Redux based application with API'}</dd>
      </dl>
    </a>
  </div>

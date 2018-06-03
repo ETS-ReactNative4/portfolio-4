@@ -10,10 +10,10 @@ import './App.css';
 const particleOptions={
   particles: {
     number: {
-      value: 50,
+      value: 30,
       density:{
         enable: true,
-        value_area: 600
+        value_area: 400
       }
     },
     color: {
@@ -23,7 +23,7 @@ const particleOptions={
      enable_auto: true,
      color: '#2f0d0d'
    }
-  }
+ }
 }
 
 class App extends Component {
