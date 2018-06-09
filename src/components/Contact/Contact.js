@@ -5,7 +5,7 @@ const Contact =()=>{
   return(
     <div>
     <main className="pa4 black-80">
-<form className="measure center" action="https://formspree.io/bellalo7755@gmail.com"
+<form className="measure center animated fadeInLeft" action="https://formspree.io/bellalo7755@gmail.com"
       method="POST">
   <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
     <legend className="f4 fw6 ph0 mh0">Contact Me</legend>
@@ -14,12 +14,12 @@ const Contact =()=>{
       <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-50" type="email" name="email-address"  id="email-address"/>
     </div>
     <div className='mt2'>
-    <label for="comment" class="f6 b db mb2">Message</label>
-    <textarea id="comment" name="comment" class="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" aria-describedby="comment-desc"></textarea>
+    <label htmlFor="comment" className="f6 b db mb2">Message</label>
+    <textarea id="comment" name="comment" className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" aria-describedby="comment-desc"></textarea>
   </div>
   </fieldset>
   <div className="">
-    <button className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit">Send</button>
+    <button className="b ph3 pv2 input-reset ba b--black bg-transparent pointer f6 dib dim hover-bg-light-blue" type="submit">Send</button>
   </div>
 </form>
 </main>

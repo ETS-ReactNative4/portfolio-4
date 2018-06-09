@@ -4,6 +4,7 @@ import bg from './bg.png';
 import lw from './lw.png';
 import robofriends from './robofriends.png';
 import sb from './sb.png';
+import ba from './ba.png';
 
 
 const Portfolio=()=>{
@@ -11,10 +12,10 @@ const Portfolio=()=>{
     <div>
 
     <article className='center'>
-<h2 className="f3 fw4 pa3 mv0">Portfolio</h2>
+<h2 className="f2 fw4 pa3 mv0">Portfolio</h2>
 <div className="cf pa2">
  <div className="fl w-100 w-50-m w-third-l pa2">
-   <a href="https://bellalo12.github.io/dancing_robot/" className="db link dim tc">
+   <a href="https://bellalo12.github.io/dancing_robot/" className="db link dim tc animated fadeInDown">
      <img src={dr} alt="dr-screenshot" className="w-100 db outline black-10"/>
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
@@ -25,7 +26,7 @@ const Portfolio=()=>{
    </a>
  </div>
  <div className="fl w-100 w-50-m w-third-l pa2">
-   <a href="https://bellalo12.github.io/github_page/" className="db link dim tc">
+   <a href="https://bellalo12.github.io/github_page/" className="db link dim tc animated fadeInUp">
      <img src={lw} alt="lw-screenshop" className="w-100 db outline black-10" />
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
@@ -37,7 +38,7 @@ const Portfolio=()=>{
  </div>
 
  <div className="fl w-100 w-50-m w-third-l pa2">
-   <a href="https://bellalo12.github.io/background_generator" className="db link dim tc">
+   <a href="https://bellalo12.github.io/background_generator" className="db link dim tc animated fadeInDown">
      <img src={bg} alt="bg-screenshop" className="w-100 db outline black-10"/>
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
@@ -49,7 +50,7 @@ const Portfolio=()=>{
  </div>
 
  <div className="fl w-100 w-50-m w-third-l pa2">
-   <a href="https://search-robofriends.herokuapp.com/" className="db link dim tc">
+   <a href="https://search-robofriends.herokuapp.com/" className="db link dim tc animated fadeInUp">
      <img src={robofriends} alt="sb-screenshop" className="w-100 db outline black-10"/>
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
@@ -61,13 +62,25 @@ const Portfolio=()=>{
  </div>
 
  <div className="fl w-100 w-50-m w-third-l pa2">
-   <a href="https://bellalo12.github.io/portfolio" className="db link dim tc">
+   <a href="https://bellalo12.github.io/portfolio" className="db link dim tc animated fadeInDown">
      <img src={sb} alt="sb-screenshop" className="w-100 db outline black-10"/>
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
        <dd className="ml0 black truncate w-100 ttu">{'Face Recognition'}</dd>
        <dt className="clip">Intro</dt>
        <dd className="ml0 gray truncate w-100">{'Use a RESTful API to detect face in given images'}</dd>
+     </dl>
+   </a>
+ </div>
+
+ <div className="fl w-100 w-50-m w-third-l pa2">
+   <a href="https://bellalo12.github.io/blockchain-demo" className="db link dim tc animated fadeInUp">
+     <img src={ba} alt="sb-screenshop" className="w-100 db outline black-10"/>
+     <dl className="mt2 f6 lh-copy">
+       <dt className="clip">Title</dt>
+       <dd className="ml0 black truncate w-100 ttu">{'Blockchain Demo'}</dd>
+       <dt className="clip">Intro</dt>
+       <dd className="ml0 gray truncate w-100">{'A web-based demonstration of blockchain concept'}</dd>
      </dl>
    </a>
  </div>
