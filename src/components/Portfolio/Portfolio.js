@@ -62,7 +62,7 @@ const Portfolio=()=>{
  </div>
 
  <div className="fl w-100 w-50-m w-third-l pa2">
-   <a href="https://bellalo12.github.io/portfolio" className="db link dim tc animated fadeInDown">
+   <a href="https://smart-brain-demo.herokuapp.com/" className="db link dim tc animated fadeInDown">
      <img src={sb} alt="sb-screenshop" className="w-100 db outline black-10"/>
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
