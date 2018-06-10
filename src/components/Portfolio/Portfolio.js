@@ -19,7 +19,7 @@ const Portfolio=()=>{
      <img src={dr} alt="dr-screenshot" className="w-100 db outline black-10"/>
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
-       <dd className="ml0 black truncate w-100">{'BACKGROUND GENERTOR'}</dd>
+       <dd className="ml0 black truncate w-100">{'ROBOT JANE'}</dd>
        <dt className="clip">Intro</dt>
        <dd className="ml0 gray truncate w-100">{'An animated robot that can able to play with'}</dd>
      </dl>
@@ -42,7 +42,7 @@ const Portfolio=()=>{
      <img src={bg} alt="bg-screenshop" className="w-100 db outline black-10"/>
      <dl className="mt2 f6 lh-copy">
        <dt className="clip">Title</dt>
-       <dd className="ml0 black truncate w-100 ttu">Landing Website</dd>
+       <dd className="ml0 black truncate w-100 ttu">Background Generator</dd>
        <dt className="clip">Intro</dt>
        <dd className="ml0 gray truncate w-100">{'A JavaScript app to help web developer generate background'}</dd>
      </dl>
