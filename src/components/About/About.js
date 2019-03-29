@@ -9,7 +9,7 @@ const About =()=>{
     <article className="mw6 shadow-5 center bg-white br3 pa4 pa4-ns mv3 ba b--black-10">
    <div className="tc">
    <Tilt className="Tilt center" options={{ max : 85 }} style={{ height: 125, width: 125 }} >
-   <div className="Tilt-inner center"><img alt='pic'src={bella} className="br-100 h4 w4 dib" /> </div>
+   <div className="Tilt-inner center"><img alt='yifang'src={bella} className="br-100 h4 w4 dib" /> </div>
    </Tilt>
    <h1 className="f4">{'YIFANG LO'}</h1>
     <hr className="mw3 bb bw1 b--black-10" />
